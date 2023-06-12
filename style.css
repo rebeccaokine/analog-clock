@@ -1,6 +1,6 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(250, 240, 219);
+    background-color: rgb(219, 250, 242);
 }
 
 .clock-dial {
@@ -8,9 +8,13 @@ body{
     height: 500px;
     border: 15px solid ;
     border-radius: 50%;
-    margin: 0 auto;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgb(111, 255, 224);
+    overflow: hidden;
+    
 }
 
 .point {
